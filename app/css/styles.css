@@ -1,0 +1,37 @@
+html{
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #ddd; */
+}
+body{
+  background-color: #B6DBEA;
+}
+.container{
+  margin: auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.titleSpan {
+  margin: 0 -3px !important
+}
+.navbar a {
+  color: #fff !important
+}
+a.nav-link{
+  color: #fff;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  line-height: 1.5em;
+  padding: 5px;
+}
+.footer > .span-1{
+  float: left !important;
+  font-size: 12px;
+  color: #fff;
+}
+.footer > .span-2{
+  float: right !important;
+  font-size: 12px;
+  color: #fff;
+}

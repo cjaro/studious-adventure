@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"  >
+
+<head>
+  <meta charset="utf-8">
+  <title>GlitchiGummi</title>
+  <link rel="shortcut icon" type="image/png" href="images/Superior1.png" />
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <script type="text/javascript" src="/app.js">
+  </script>
+</head>
+
+<body ng-app="ggApp" ng-controller="MainController">
+
+    <nav class="navbar navbar-expand-md bg-light navbar-light" style="background-color: #2E0A91  !important">
+      <a class="navbar-brand" href="#">
+        <img src="images/Superior1.png" style="max-height: 100%; width:100px;">
+        &nbsp; GlitchiGummi </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="fas fa-question-circle"></i>&nbsp; About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work"><i class="fas fa-briefcase"></i>&nbsp; Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog"><i class="fas fa-pencil-alt"></i>&nbsp; Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i>&nbsp; Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main">
+
+        <div ng-view></div>
+
+      </div>
+
+
+</body>
+
+<footer class="footer" style="background-color:#2E0A91 !important;">
+  <span class="span-1">&copy;
+    <script type="text/javascript">
+    document.write(new Date().getFullYear());
+    </script></span>
+    <span class="span-2"><a href="https://www.lakesuperior.com/the-lake/lake-superior/281almanac/">Gitchi Gummi</a></span>
+  </footer>
+
+  </html>
