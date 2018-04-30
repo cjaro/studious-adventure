@@ -1,24 +1,27 @@
 var app = angular.module('ggApp', ['ngRoute']);
 
-app.config(function($routeProvider) {
-        $routeProvider
-            .when('/', {
-                templateUrl : 'views/main.html',
-                controller  : 'MainController'
-            })
-            .when('/about', {
-                templateUrl : 'views/about.html',
-                controller  : 'AboutController'
-            })
-            .when('/work', {
-              templateUrl: '/views/work.html',
-              controller: 'WorkController'
-            })
-            .when('/contact', {
-                templateUrl : 'views/contact.html',
-                controller  : 'ContactController'
-            });
-    });
+app.config(['$routeProvider', function($routeProvider) {
+    $routeProvider
+        .when('/', {
+            templateUrl : '/views/main.html',
+            controller  : 'MainController'
+        })
+        .when('/about', {
+            templateUrl : '/views/about.html',
+            controller  : 'AboutController'
+        })
+        .when('/work', {
+          templateUrl: '/views/work.html',
+          controller: 'WorkController'
+        })
+        .when('/contact', {
+            templateUrl : '/views/contact.html',
+            controller  : 'ContactController'
+        })
+        .otherwise({
+            redirectTo: '/'
+        });
+}]);
 
     // create the controller and inject Angular's $scope
     app.controller('MainController', function($scope) {

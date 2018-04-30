@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr"  >
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <title>GlitchiGummi</title>
   <link rel="shortcut icon" type="image/png" href="images/glitchigumee-icon.png" />
   <!-- jQuery -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Bootstrap -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   <!-- AngularJS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
   <!-- FontAwesome 5 -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <!-- Font - Roboto -->
@@ -24,23 +23,66 @@
 
 </head>
 
-<body ng-app="ggApp" class="container">
+<body ng-app="ggApp">
 
-  <header ng-include="views/templates/nav-header.html"></header>
-
-  <main ng-view></main>
-
-</body>
-
-<footer class="footer" style="background-color:#2E0A91 !important;">
-  <span class="span-1">&copy;
-    <script type="text/javascript">
-    document.write(new Date().getFullYear());
-    </script></span>
-    <span class="span-3">
-      <i class="fab fa-github-square"></i> &nbsp; <i class="fab fa-twitter-square"></i> &nbsp; <i class="fab fa-linkedin"></i>
+<header>
+  <span ng-controller="NavController">
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/Superior1.png" style="max-height: 100%; width:100px; -webkit-filter: grayscale(100%);filter: grayscale(100%); margin-left: 10px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span><i class="fas fa-chevron-down" style="color:#fff;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><i class="fas fa-question-circle"></i>&nbsp; About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work"><i class="fas fa-briefcase"></i>&nbsp; Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog"><i class="fas fa-pencil-alt"></i>&nbsp; Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i>&nbsp; Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </span>
-    <span class="span-2"><a href="https://www.lakesuperior.com/the-lake/lake-superior/281almanac/">Gitchi Gummi</a></span>
-  </footer>
+</header>
+<div class="container">
+  <h1 style="text-align: center; font-weight: 300">Glitchi-Gami Web Development</h1>
+</div>
 
-  </html>
+    <div class="container">
+      <main class="main">
+        <div class="col-md-12" style="padding: 25px 50px;">
+          <h2><b><em>Glitchi</em></b>-gami?</h2>
+          <h3>Aren't glitches bad for computers, websites, and video games?</h3>
+          <p>Normally, yes. </p>
+            <p>Here, it's just a play on the Obijwe word for Lake Superior, 'Gitchi-gami', meaning 'great sea' - and you will only <b>sea great</b> work from us.</p>
+          <p>All puns aside, we're here for you and we do it well. Whether you need a new website, your old website needs work, or you need something more from your current (or non-existent) IT Company, we're here for you. We've been in this business long enough to know that the relationship between a business owner like yourself and an IT/Website management firm can (and often does) go south very quickly: expectations are mismatched, products are delivered well over time and budget, there's no one to turn to for help when your website goes down or you need an update (and let's not get started on the cost to your business when the site <em>does</em> go offline).</p>
+          <p>So here we are. We're small, we're accessible, and we're smart. We stay ahead of the most recent technologies to make sure we're offering you the best experience that we can. We know your money is hard-earned and your time is valuable, so we won't waste either with vague tech-talk that covers up bullshit that you can smell anyway. We're transparent.</p>
+          <p>That's our bottom line.</p>
+          <p>Contact us today.</p>
+        </div>
+      </main>
+    </div>
+
+  </body>
+
+  <footer class="footer" style="background-color:#476C9B !important;">
+    <span class="span-1">Glitchi-Gami Web Development &copy;
+      <script type="text/javascript">
+      document.write(new Date().getFullYear());
+      </script></span>
+      <span class="span-3">
+        <i class="fab fa-github-square"></i> &nbsp; <i class="fab fa-twitter-square"></i> &nbsp; <i class="fab fa-linkedin"></i>
+      </span>
+      <span class="span-2"><a href="https://www.lakesuperior.com/the-lake/lake-superior/281almanac/"><i class="fas fa-external-link-alt"></i>&nbsp;Gitchi Gummi</a></span>
+    </footer>
+
+    </html>

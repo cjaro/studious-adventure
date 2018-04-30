@@ -8,18 +8,34 @@ body{
   margin: 25px auto;
   border-radius: 5px;
   background-color: #fff;
+  padding: 25px 50px;
+}
+.main{
+  background-color: #fff;
+  border-radius: 5px;
 }
 .titleSpan {
   margin: 0 -3px !important
 }
+.navbar{
+  background-color: #476C9B  !important;
+  padding: 0 !important;
+  color: #fff
+}
 .navbar a {
   color: #fff !important
 }
-a.nav-link{
+a.nav-link, {
   color: #fff;
 }
+a:hover{
+  color: #77BA99 !important;
+}
+a.navbar-brand img:hover{
+  -webkit-filter:drop-shadow(8px 8px 10px white) !important;
+  filter: drop-shadow(8px 8px 10px white) !important;
+}
 .footer{
-  position: absolute;
   width: 100%;
   line-height: 1.5em;
   padding: 5px;
@@ -34,6 +50,9 @@ a.nav-link{
 .footer > .span-2{
   float: right !important;
   color: #fff;
+}
+.footer > .span-2 a {
+  color: #fff
 }
 .footer > .span-3, .footer > .span-3 i{
   margin: auto !important;
