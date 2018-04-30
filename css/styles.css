@@ -1,0 +1,41 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: #B6DBEA;
+}
+.container{
+  margin: 25px auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.titleSpan {
+  margin: 0 -3px !important
+}
+.navbar a {
+  color: #fff !important
+}
+a.nav-link{
+  color: #fff;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  line-height: 1.5em;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+}
+.footer > .span-1{
+  float: left !important;
+  color: #fff;
+}
+.footer > .span-2{
+  float: right !important;
+  color: #fff;
+}
+.footer > .span-3, .footer > .span-3 i{
+  margin: auto !important;
+  color: #fff;
+}

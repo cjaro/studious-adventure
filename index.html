@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"  >
+
+<head>
+  <meta charset="utf-8">
+  <title>GlitchiGummi</title>
+  <link rel="shortcut icon" type="image/png" href="images/glitchigumee-icon.png" />
+  <!-- jQuery -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- AngularJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular-route.js"></script>
+  <!-- FontAwesome 5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <!-- Font - Roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+
+  <script src="app.js"></script>
+
+  <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body ng-app="ggApp" class="container">
+
+  <header ng-include="views/templates/nav-header.html"></header>
+
+  <main ng-view></main>
+
+</body>
+
+<footer class="footer" style="background-color:#2E0A91 !important;">
+  <span class="span-1">&copy;
+    <script type="text/javascript">
+    document.write(new Date().getFullYear());
+    </script></span>
+    <span class="span-3">
+      <i class="fab fa-github-square"></i> &nbsp; <i class="fab fa-twitter-square"></i> &nbsp; <i class="fab fa-linkedin"></i>
+    </span>
+    <span class="span-2"><a href="https://www.lakesuperior.com/the-lake/lake-superior/281almanac/">Gitchi Gummi</a></span>
+  </footer>
+
+  </html>
