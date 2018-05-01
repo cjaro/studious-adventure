@@ -41,6 +41,16 @@ a.navbar-brand img:hover{
   -webkit-filter:drop-shadow(8px 8px 10px white) !important;
   filter: drop-shadow(8px 8px 10px white) !important;
 }
+.dropdown-menu {
+  background-color: rgb(235, 214, 255);
+  border: 1px solid #6f42c1;
+  border-radius: 0 0 5px 5px;
+  width: 100%;
+  top: 105%;
+}
+.dropdown-menu a{
+  color: black !important
+}
 
 li{
   list-style: none
