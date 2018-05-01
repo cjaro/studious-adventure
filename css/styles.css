@@ -2,13 +2,13 @@ html{
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: #B6DBEA;
+  background-color: #ddd;
 }
-.container{
-  margin: 25px auto;
+.container2{
+  margin: 10px auto;
   border-radius: 5px;
   background-color: #fff;
-  padding: 25px 50px;
+  padding: 25px 40px;
 }
 .main{
   background-color: #fff;
@@ -17,10 +17,16 @@ body{
 .titleSpan {
   margin: 0 -3px !important
 }
+nav button {
+  margin: 10px;
+}
 .navbar{
-  background-color: #476C9B  !important;
+  background-color: #6f42c1 !important;
   padding: 0 !important;
-  color: #fff
+  color: #fff;
+}
+.navbar-nav{
+  margin-left: 10px;
 }
 .navbar a {
   color: #fff !important
@@ -29,12 +35,24 @@ a.nav-link, {
   color: #fff;
 }
 a:hover{
-  color: #77BA99 !important;
+  color: rgb(204, 224, 245) !important;
 }
 a.navbar-brand img:hover{
   -webkit-filter:drop-shadow(8px 8px 10px white) !important;
   filter: drop-shadow(8px 8px 10px white) !important;
 }
+
+li{
+  list-style: none
+}
+
+.post-title, .post-body{
+  Margin: 10px 0
+}
+#editor-container {
+  height: 400px;
+}
+
 .footer{
   width: 100%;
   line-height: 1.5em;
@@ -42,6 +60,7 @@ a.navbar-brand img:hover{
   display: flex;
   justify-content: space-between;
   bottom: 0;
+  background-color: #6f42c1  !important
 }
 .footer > .span-1{
   float: left !important;

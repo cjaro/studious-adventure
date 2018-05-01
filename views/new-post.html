@@ -1,0 +1,47 @@
+<script type="text/javascript">
+var quill = new Quill('#editor-container', {
+  modules: {
+    toolbar: [
+      [{ header: [1, 2, false] }],
+      ['bold', 'italic', 'underline'],
+      ['image', 'code-block'],
+      [{ 'indent': '-1'}, { 'indent': '+1' }],
+      [{ 'color': [] }, { 'background': [] }],
+      [{ 'font': [] }],
+      [{ 'align': [] }],
+      ['clean']
+    ]
+  },
+  placeholder: 'Compose an epic...',
+  theme: 'snow'  // or 'bubble'
+});
+</script>
+
+<div class="container">
+  <div class="col-md-12">
+
+ <div class="new-post-body">
+   <h1 style="margin:10px 20px">New Post</h1>
+  <div class="post-title input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text" id="basic-addon1">Post Title:</span>
+    </div>
+    <input type="text" class="form-control" style="max-width: 85%;" />
+  </div>
+
+  <div class="post-body">
+    <div id="editor-container"></div>
+  </div>
+
+  <div style="display: flex; flex-direction: row; justify-content: flex-end; margin: 10px 20px">
+    <button class="btn btn-primary">Publish Post</button>&nbsp;
+    <button class="btn btn-secondary">Save as Draft</button>
+  </div>
+
+</div> <!--/.body-->
+
+
+</div>
+
+  </div>
+</div>

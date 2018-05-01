@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	/Users/cjarocki/Desktop/glitchigami/index.html	/^<html lang="en" dir="ltr" ng-app="ggApp">$/;"	function	line:2
+head	/Users/cjarocki/Desktop/glitchigami/index.html	/^<head>$/;"	function	line:4
+meta	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <meta charset="utf-8">$/;"	function	line:5
+title	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <title>GlitchiGummi<\/title>$/;"	function	line:6
+link	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <link rel="shortcut icon" type="image\/png" href="images\/glitchigumee-icon.png" \/>$/;"	function	line:7
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <script src="https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.1.1\/jquery.min.js"><\/script>$/;"	function	line:9
+link	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <link href="https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.0\/css\/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">$/;"	function	line:11
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <script src="https:\/\/stackpath.bootstrapcdn.com\/bootstrap\/4.1.0\/js\/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt\/6v9KI65qnm" crossorigin="anonymous"><\/script>$/;"	function	line:12
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <script src="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/angular.js\/1.6.10\/angular.min.js"><\/script>$/;"	function	line:14
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <script src="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/angular.js\/1.6.10\/angular-route.min.js"><\/script>$/;"	function	line:15
+link	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <link rel="stylesheet" href="https:\/\/use.fontawesome.com\/releases\/v5.0.10\/css\/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD\/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">$/;"	function	line:17
+link	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <link href="https:\/\/fonts.googleapis.com\/css?family=Roboto" rel="stylesheet" \/>$/;"	function	line:19
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <script src="app.js"><\/script>$/;"	function	line:21
+link	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <link href="css\/styles.css" rel="stylesheet" \/>$/;"	function	line:23
+body	/Users/cjarocki/Desktop/glitchigami/index.html	/^<body ng-controller="MainController">$/;"	function	line:27
+header	/Users/cjarocki/Desktop/glitchigami/index.html	/^<header>$/;"	function	line:29
+nav	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <nav class="navbar navbar-expand-md bg-light navbar-light">$/;"	function	line:30
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^    <a class="navbar-brand" href="#">$/;"	function	line:31
+img	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <img src="images\/superior.png" style="max-height: 100%; width:100px; -webkit-filter: grayscale(100%);filter: grayscale(100%); margin-left: 10px;">$/;"	function	line:32
+button	/Users/cjarocki/Desktop/glitchigami/index.html	/^    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">$/;"	function	line:34
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <span><i class="fas fa-chevron-down" style="color:#fff;"><\/i><\/span>$/;"	function	line:35
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^    <div class="collapse navbar-collapse" id="collapsibleNavbar">$/;"	function	line:37
+ul	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <ul class="navbar-nav">$/;"	function	line:38
+li	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <li class="nav-item">$/;"	function	line:39
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <a class="nav-link" href="#!about"><i class="fas fa-question-circle"><\/i>&nbsp; About<\/a>$/;"	function	line:40
+li	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <li class="nav-item">$/;"	function	line:42
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <a class="nav-link" href="#!work"><i class="fas fa-briefcase"><\/i>&nbsp; Work<\/a>$/;"	function	line:43
+li	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <li class="nav-item">$/;"	function	line:45
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <a class="nav-link" href="#!blog"><i class="fas fa-pencil-alt"><\/i>&nbsp; Blog<\/a>$/;"	function	line:46
+li	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <li class="nav-item">$/;"	function	line:48
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <a class="nav-link" href="#!contact"><i class="fas fa-envelope"><\/i>&nbsp; Contact<\/a>$/;"	function	line:49
+button	/Users/cjarocki/Desktop/glitchigami/index.html	/^    <button class="btn btn-info" type="button">Log In <i class="fas fa-sign-in-alt"><\/i><\/button>$/;"	function	line:53
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^<div class="container" style="margin: 10px auto; padding: 0; width: 90%">$/;"	function	line:57
+h	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <h1 style="text-align: center; font-weight: 300">Glitchi-Gami Web Development<\/h1>$/;"	function	line:58
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^    <div class="container">$/;"	function	line:63
+main	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <main class="main">$/;"	function	line:64
+ul	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <ul>$/;"	function	line:66
+li	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <li ng-repeat="phone in phones">$/;"	function	line:67
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span>{{phone.name}}<\/span>$/;"	function	line:68
+p	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <p>{{phone.snippet}}<\/p>$/;"	function	line:69
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <div ng-view><\/div>$/;"	function	line:72
+footer	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <footer class="footer" style="background-color:#476C9B !important;">$/;"	function	line:78
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^    <span class="span-1">Glitchi-Gami Web Development &copy;$/;"	function	line:79
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <script type="text\/javascript">$/;"	function	line:80
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <span class="span-3">$/;"	function	line:83
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <i class="fab fa-github-square"><\/i> &nbsp; <i class="fab fa-twitter-square"><\/i> &nbsp; <i class="fab fa-linkedin"><\/i>$/;"	function	line:84
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <span class="span-2"><a href="https:\/\/www.lakesuperior.com\/the-lake\/lake-superior\/281almanac\/"><i class="fas fa-external-link-alt"><\/i>&nbsp;Gitchi Gummi<\/a><\/span>$/;"	function	line:86

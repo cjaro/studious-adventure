@@ -3,19 +3,19 @@ var app = angular.module('ggApp', ['ngRoute']);
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl : '/views/main.html',
+            templateUrl : 'views/main.html',
             controller  : 'MainController'
         })
         .when('/about', {
-            templateUrl : '/views/about.html',
+            templateUrl : 'views/about.html',
             controller  : 'AboutController'
         })
         .when('/work', {
-          templateUrl: '/views/work.html',
+          templateUrl: 'views/work.html',
           controller: 'WorkController'
         })
         .when('/contact', {
-            templateUrl : '/views/contact.html',
+            templateUrl : 'views/contact.html',
             controller  : 'ContactController'
         })
         .otherwise({
@@ -27,7 +27,20 @@ app.config(['$routeProvider', function($routeProvider) {
     app.controller('MainController', function($scope) {
         // create a message to display in our view
         $scope.message = 'Everyone come and see how good I look!';
+        $scope.phones = [
+          {
+            name: 'Nexus S',
+            snippet: 'Fast just got faster with Nexus S.'
+          }, {
+            name: 'Motorola XOOM™ with Wi-Fi',
+            snippet: 'The Next, Next Generation tablet.'
+          }, {
+            name: 'MOTOROLA XOOM™',
+            snippet: 'The Next, Next Generation tablet.'
+          }
+        ];
     });
+
     app.controller('AboutController', function($scope) {
         $scope.message = 'Look! I am an about page.';
     });
@@ -37,5 +50,3 @@ app.config(['$routeProvider', function($routeProvider) {
     app.controller('ContactController', function($scope) {
         $scope.message = 'Contact us! fuck you.';
     });
-
-});
