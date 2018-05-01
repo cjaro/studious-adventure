@@ -52,6 +52,29 @@ li{
 #editor-container {
   height: 400px;
 }
+.login-form{
+  margin: 50px
+}
+.form-group{
+  margin: 0;
+}
+.email-input, .password-input{
+    margin: 0 auto;
+    width: 50%;
+}
+.email-input{
+	border-radius: 5px 5px 0 0;
+}
+.password-input {
+	border-radius: 0 0 5px 5px;
+}
+.login-button-div {
+  text-align:center;
+  margin: 10px auto
+}
+.login-form button {
+width: 50%;
+}
 
 .footer{
   width: 100%;
@@ -59,6 +82,7 @@ li{
   padding: 5px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   bottom: 0;
   background-color: #6f42c1  !important
 }
@@ -74,6 +98,27 @@ li{
   color: #fff
 }
 .footer > .span-3, .footer > .span-3 i{
-  margin: auto !important;
   color: #fff;
+}
+.footer > .span-3 a{
+  color: #fff
+}
+
+
+@media (max-width: 992px) {
+.container {
+    max-width: 970px !important;
+}
+}
+
+@media (max-width: 768px){
+  .container {
+      max-width: 740px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+      max-width: 560px  !important;
+  }
 }
