@@ -1,3 +1,39 @@
+html	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^html{$/;"	function	line:1
+body	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^body{$/;"	function	line:4
+.container2	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.container2{$/;"	function	line:7
+.main	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.main{$/;"	function	line:13
+.titleSpan	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.titleSpan {$/;"	function	line:17
+nav button	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^nav button {$/;"	function	line:20
+.navbar	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.navbar{$/;"	function	line:23
+.navbar-nav	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.navbar-nav{$/;"	function	line:28
+.navbar a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.navbar a {$/;"	function	line:31
+a.nav-link,	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^a.nav-link, {$/;"	function	line:34
+a:hover	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^a:hover{$/;"	function	line:37
+a.navbar-brand img:hover	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^a.navbar-brand img:hover{$/;"	function	line:40
+.dropdown-menu	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.dropdown-menu {$/;"	function	line:44
+.dropdown-menu a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.dropdown-menu a{$/;"	function	line:51
+li	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^li{$/;"	function	line:55
+.post-title, .post-body	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.post-title, .post-body{$/;"	function	line:59
+#editor-container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^#editor-container {$/;"	function	line:62
+.login-form	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.login-form{$/;"	function	line:65
+.form-group	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.form-group{$/;"	function	line:68
+.email-input, .password-input	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.email-input, .password-input{$/;"	function	line:71
+.email-input	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.email-input{$/;"	function	line:75
+.password-input	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.password-input {$/;"	function	line:78
+.login-button-div	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.login-button-div {$/;"	function	line:81
+.login-form button	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.login-form button {$/;"	function	line:85
+.footer	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer{$/;"	function	line:89
+.footer > .span-1	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-1{$/;"	function	line:99
+.footer > .span-2	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-2{$/;"	function	line:103
+.footer > .span-2 a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-2 a {$/;"	function	line:107
+.footer > .span-3, .footer > .span-3 i	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-3, .footer > .span-3 i{$/;"	function	line:110
+.footer > .span-3 a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-3 a{$/;"	function	line:113
+@media (max-width: 992px)	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^@media (max-width: 992px) {$/;"	function	line:118
+.container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.container {$/;"	function	line:119
+@media (max-width: 768px)	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^@media (max-width: 768px){$/;"	function	line:124
+.container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^  .container {$/;"	function	line:125
+@media (max-width: 576px)	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^@media (max-width: 576px) {$/;"	function	line:130
+.container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^  .container {$/;"	function	line:131
 html	/Users/cjarocki/Desktop/glitchigami/index.html	/^<html lang="en" dir="ltr" ng-app="ggApp">$/;"	function	line:2
 head	/Users/cjarocki/Desktop/glitchigami/index.html	/^<head>$/;"	function	line:4
 meta	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <meta charset="utf-8">$/;"	function	line:5
@@ -36,7 +72,7 @@ a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a class="nav-lin
 li	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <li class="nav-item">$/;"	function	line:55
 a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a class="nav-link" href="#!contact"><i class="fas fa-envelope"><\/i>&nbsp;Contact<\/a>$/;"	function	line:56
 li	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <li class="nav-item dropdown">$/;"	function	line:58
-a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Logged-in Options&nbsp;<i class="fas fa-envelope"><\/i><\/a>$/;"	function	line:59
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><i class="fas fa-lock"><\/i>&nbsp;Logged-in Options<\/a>$/;"	function	line:59
 div	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <div class="dropdown-menu" style="background-color: rgb(235, 214, 255);">$/;"	function	line:60
 a	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <a class="dropdown-item" href="#"><i class="fas fa-plus"><\/i>&nbsp;New Post<\/a>$/;"	function	line:61
 a	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <a class="dropdown-item" href="#"><i class="fas fa-file-alt"><\/i>&nbsp;Drafts<\/a>$/;"	function	line:62
@@ -103,39 +139,3 @@ a	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <a href="https:\/\/gitlab.c
 span	/Users/cjarocki/Desktop/glitchigami/index.html	/^  <span class="span-2">$/;"	function	line:182
 button	/Users/cjarocki/Desktop/glitchigami/index.html	/^    <button class="btn btn-primary btn-sm" type="button">Log In <i class="fas fa-sign-in-alt"><\/i><\/button>$/;"	function	line:183
 script	/Users/cjarocki/Desktop/glitchigami/index.html	/^<script type="text\/javascript">$/;"	function	line:187
-html	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^html{$/;"	function	line:1
-body	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^body{$/;"	function	line:4
-.container2	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.container2{$/;"	function	line:7
-.main	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.main{$/;"	function	line:13
-.titleSpan	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.titleSpan {$/;"	function	line:17
-nav button	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^nav button {$/;"	function	line:20
-.navbar	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.navbar{$/;"	function	line:23
-.navbar-nav	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.navbar-nav{$/;"	function	line:28
-.navbar a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.navbar a {$/;"	function	line:31
-a.nav-link,	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^a.nav-link, {$/;"	function	line:34
-a:hover	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^a:hover{$/;"	function	line:37
-a.navbar-brand img:hover	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^a.navbar-brand img:hover{$/;"	function	line:40
-.dropdown-menu	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.dropdown-menu {$/;"	function	line:44
-.dropdown-menu a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.dropdown-menu a{$/;"	function	line:51
-li	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^li{$/;"	function	line:55
-.post-title, .post-body	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.post-title, .post-body{$/;"	function	line:59
-#editor-container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^#editor-container {$/;"	function	line:62
-.login-form	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.login-form{$/;"	function	line:65
-.form-group	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.form-group{$/;"	function	line:68
-.email-input, .password-input	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.email-input, .password-input{$/;"	function	line:71
-.email-input	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.email-input{$/;"	function	line:75
-.password-input	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.password-input {$/;"	function	line:78
-.login-button-div	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.login-button-div {$/;"	function	line:81
-.login-form button	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.login-form button {$/;"	function	line:85
-.footer	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer{$/;"	function	line:89
-.footer > .span-1	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-1{$/;"	function	line:99
-.footer > .span-2	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-2{$/;"	function	line:103
-.footer > .span-2 a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-2 a {$/;"	function	line:107
-.footer > .span-3, .footer > .span-3 i	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-3, .footer > .span-3 i{$/;"	function	line:110
-.footer > .span-3 a	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.footer > .span-3 a{$/;"	function	line:113
-@media (max-width: 992px)	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^@media (max-width: 992px) {$/;"	function	line:118
-.container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^.container {$/;"	function	line:119
-@media (max-width: 768px)	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^@media (max-width: 768px){$/;"	function	line:124
-.container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^  .container {$/;"	function	line:125
-@media (max-width: 576px)	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^@media (max-width: 576px) {$/;"	function	line:130
-.container	/Users/cjarocki/Desktop/glitchigami/css/styles.css	/^  .container {$/;"	function	line:131
