@@ -2,7 +2,28 @@ html{
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background-color: #ddd;
+  background-color: rgb(204, 224, 245);
+}
+h1{
+  font-size: 40px
+}
+h2{
+  font-size: 36px
+}
+h3{
+  font-size: 32px
+}
+h4{
+  font-size: 28px
+}
+h5{
+  font-size: 24px
+}
+h6{
+  font-size: 20px
+}
+p{
+  font-size: 14px;
 }
 .container2{
   margin: 10px auto;
@@ -17,7 +38,7 @@ body{
 .titleSpan {
   margin: 0 -3px !important
 }
-nav button {
+/* nav button {
   margin: 10px;
 }
 .navbar{
@@ -51,7 +72,7 @@ a.navbar-brand img:hover{
 .dropdown-menu a{
   color: black !important
 }
-
+*/
 li{
   list-style: none
 }
@@ -63,7 +84,8 @@ li{
   height: 400px;
 }
 .login-form{
-  margin: 50px
+  margin: 50px auto;
+  width:50%
 }
 .form-group{
   margin: 0;
@@ -80,7 +102,7 @@ li{
 }
 .login-button-div {
   text-align:center;
-  margin: 10px auto
+  margin: 25px auto
 }
 .login-form button {
 width: 50%;
@@ -88,15 +110,15 @@ width: 50%;
 
 .footer{
   width: 100%;
-  line-height: 1.5em;
+  line-height: 2.5em;
   padding: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   bottom: 0;
-  background-color: #6f42c1  !important
+  /* background-color: #6f42c1  !important */
 }
-.footer > .span-1{
+/* .footer > .span-1{
   float: left !important;
   color: #fff;
 }
@@ -112,7 +134,7 @@ width: 50%;
 }
 .footer > .span-3 a{
   color: #fff
-}
+} */
 
 
 @media (max-width: 992px) {
