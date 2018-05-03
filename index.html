@@ -208,6 +208,14 @@
                             <span>gitlab/cjaro</span>
                           </a>
                         </li>
+                        <li>
+                          <a href="https://codepen.io/chjaro/">
+                            <span class="icon has-text-black">
+                              <i class="fab fa-codepen"></i>
+                            </span>
+                            <span>CH Jaro</span>
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -281,6 +289,12 @@
                 <i class="fab fa-gitlab"></i>
               </span>
             </a>
+            &nbsp;
+            <a href="https://codepen.io/chjaro/">
+              <span class="icon has-text-black">
+                <i class="fab fa-codepen"></i>
+              </span>
+            </a>
           </span>
 
         </footer>
@@ -310,20 +324,20 @@
               ['clean']
             ]
           },
-          placeholder: 'Compose an epic...',
-          theme: 'snow' // or 'bubble'
+          placeholder: 'Compose an epic!',
+          theme: 'snow'
         });
 
         document.addEventListener('DOMContentLoaded', function () {
 
   // Get all "navbar-burger" elements
-  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  var $navbarMobile = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
   // Check if there are any navbar burgers
-  if ($navbarBurgers.length > 0) {
+  if ($navbarMobile.length > 0) {
 
     // Add a click event on each of them
-    $navbarBurgers.forEach(function ($el) {
+    $navbarMobile.forEach(function ($el) {
       $el.addEventListener('click', function () {
 
         // Get the target from the "data-target" attribute

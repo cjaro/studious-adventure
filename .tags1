@@ -129,35 +129,43 @@ a	/Users/cjarocki/Desktop/glitchigami/index.html	/^                          <a 
 span	/Users/cjarocki/Desktop/glitchigami/index.html	/^                            <span class="icon has-text-danger">$/;"	function	line:205
 i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                              <i class="fab fa-gitlab"><\/i>$/;"	function	line:206
 span	/Users/cjarocki/Desktop/glitchigami/index.html	/^                            <span>gitlab\/cjaro<\/span>$/;"	function	line:208
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <div class="container2">$/;"	function	line:217
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                  <div class="col-md-12">$/;"	function	line:218
-h	/Users/cjarocki/Desktop/glitchigami/index.html	/^                    <h1 style="margin-top: 15px;"><i class="fas fa-key" data-fa-transform="flip-h rotate-90"><\/i>&nbsp;Log In:<\/h1>$/;"	function	line:219
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                    <div class="login-form">$/;"	function	line:220
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                      <div class="field">$/;"	function	line:221
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                        <div class="control">$/;"	function	line:222
-input	/Users/cjarocki/Desktop/glitchigami/index.html	/^                          <input class="input" type="email" placeholder="Email" id="email" name="email">$/;"	function	line:223
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                      <div class="field">$/;"	function	line:226
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                        <div class="control">$/;"	function	line:227
-input	/Users/cjarocki/Desktop/glitchigami/index.html	/^                          <input class="input" type="password" placeholder="Password" type="password" id="pwd" >$/;"	function	line:228
-div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                      <div class="login-button-div">$/;"	function	line:231
-button	/Users/cjarocki/Desktop/glitchigami/index.html	/^                        <button class="button is-success">Log In&nbsp;<i class="fas fa-sign-in-alt"><\/i><\/button>$/;"	function	line:232
-footer	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <footer class="footer">$/;"	function	line:249
-span	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <span class="span-1">Glitchi-Gami &copy;$/;"	function	line:250
-script	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <script type="text\/javascript">$/;"	function	line:251
-span	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <span class="span-2">$/;"	function	line:254
-a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/www.twitter.com\/catjarocki" data-toggle="tooltip" data-placement="top" title="@chjarocki">$/;"	function	line:255
-span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-info">$/;"	function	line:256
-i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-twitter"><\/i>$/;"	function	line:257
-a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/www.linkedin.com\/in\/catherinejarocki" data-toggle="tooltip" data-placement="top" title="catherinejarocki">$/;"	function	line:261
-span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-link">$/;"	function	line:262
-i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-linkedin"><\/i>$/;"	function	line:263
-a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/github.com\/cjaro" data-toggle="tooltip" data-placement="top" title="@cjaro">$/;"	function	line:267
-span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-black">$/;"	function	line:268
-i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-github"><\/i>$/;"	function	line:269
-a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/bitbucket.org\/cjaro\/" data-toggle="tooltip" data-placement="top" title="@cjaro">$/;"	function	line:273
-span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-link">$/;"	function	line:274
-i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-bitbucket"><\/i>$/;"	function	line:275
-a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/gitlab.com\/cjaro" data-toggle="tooltip" data-placement="top" title="@cjaro">$/;"	function	line:279
-span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-danger">$/;"	function	line:280
-i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-gitlab"><\/i>$/;"	function	line:281
-script	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <script type="text\/javascript">$/;"	function	line:288
+li	/Users/cjarocki/Desktop/glitchigami/index.html	/^                        <li>$/;"	function	line:211
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^                          <a href="https:\/\/codepen.io\/chjaro\/">$/;"	function	line:212
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^                            <span class="icon has-text-black">$/;"	function	line:213
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                              <i class="fab fa-codepen"><\/i>$/;"	function	line:214
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^                            <span>CH Jaro<\/span>$/;"	function	line:216
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <div class="container2">$/;"	function	line:225
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                  <div class="col-md-12">$/;"	function	line:226
+h	/Users/cjarocki/Desktop/glitchigami/index.html	/^                    <h1 style="margin-top: 15px;"><i class="fas fa-key" data-fa-transform="flip-h rotate-90"><\/i>&nbsp;Log In:<\/h1>$/;"	function	line:227
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                    <div class="login-form">$/;"	function	line:228
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                      <div class="field">$/;"	function	line:229
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                        <div class="control">$/;"	function	line:230
+input	/Users/cjarocki/Desktop/glitchigami/index.html	/^                          <input class="input" type="email" placeholder="Email" id="email" name="email">$/;"	function	line:231
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                      <div class="field">$/;"	function	line:234
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                        <div class="control">$/;"	function	line:235
+input	/Users/cjarocki/Desktop/glitchigami/index.html	/^                          <input class="input" type="password" placeholder="Password" type="password" id="pwd" >$/;"	function	line:236
+div	/Users/cjarocki/Desktop/glitchigami/index.html	/^                      <div class="login-button-div">$/;"	function	line:239
+button	/Users/cjarocki/Desktop/glitchigami/index.html	/^                        <button class="button is-success">Log In&nbsp;<i class="fas fa-sign-in-alt"><\/i><\/button>$/;"	function	line:240
+footer	/Users/cjarocki/Desktop/glitchigami/index.html	/^      <footer class="footer">$/;"	function	line:257
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <span class="span-1">Glitchi-Gami &copy;$/;"	function	line:258
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <script type="text\/javascript">$/;"	function	line:259
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^          <span class="span-2">$/;"	function	line:262
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/www.twitter.com\/catjarocki" data-toggle="tooltip" data-placement="top" title="@chjarocki">$/;"	function	line:263
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-info">$/;"	function	line:264
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-twitter"><\/i>$/;"	function	line:265
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/www.linkedin.com\/in\/catherinejarocki" data-toggle="tooltip" data-placement="top" title="catherinejarocki">$/;"	function	line:269
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-link">$/;"	function	line:270
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-linkedin"><\/i>$/;"	function	line:271
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/github.com\/cjaro" data-toggle="tooltip" data-placement="top" title="@cjaro">$/;"	function	line:275
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-black">$/;"	function	line:276
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-github"><\/i>$/;"	function	line:277
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/bitbucket.org\/cjaro\/" data-toggle="tooltip" data-placement="top" title="@cjaro">$/;"	function	line:281
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-link">$/;"	function	line:282
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-bitbucket"><\/i>$/;"	function	line:283
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/gitlab.com\/cjaro" data-toggle="tooltip" data-placement="top" title="@cjaro">$/;"	function	line:287
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-danger">$/;"	function	line:288
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-gitlab"><\/i>$/;"	function	line:289
+a	/Users/cjarocki/Desktop/glitchigami/index.html	/^            <a href="https:\/\/codepen.io\/chjaro\/">$/;"	function	line:293
+span	/Users/cjarocki/Desktop/glitchigami/index.html	/^              <span class="icon has-text-black">$/;"	function	line:294
+i	/Users/cjarocki/Desktop/glitchigami/index.html	/^                <i class="fab fa-codepen"><\/i>$/;"	function	line:295
+script	/Users/cjarocki/Desktop/glitchigami/index.html	/^        <script type="text\/javascript">$/;"	function	line:302
